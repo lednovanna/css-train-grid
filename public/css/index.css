@@ -1,61 +1,81 @@
 .task1 {
+  display: grid;
 }
 
 .task2 {
+  display: grid;
+      grid-template-columns: 80px;
 }
 
 .task3 {
   display: grid;
+      grid-template-rows:  2fr;
+      
 }
 
 .task4 {
   display: grid;
+  grid-auto-flow: row;
 }
 .task4 .item2 {
+  order: 1;
 }
 .task4 .item4 {
+  order: 5;
 }
 .task4 .item3 {
+  order: 2;
 }
 
 .task5 {
   display: grid;
+  place-content: flex-start;
 }
 
 .task6 {
   display: grid;
+  place-content: flex-end;
+  
 }
 
 .task7 {
   display: grid;
+  place-content: center;
 }
 
 .task8 {
   display: grid;
+place-content: space-between;
 }
 
 .task9 {
   display: grid;
+  place-content: space-around;
 }
 
 .task10 {
   display: grid;
+  place-content: space-evenly;
 }
 
 .task11 {
   display: grid;
+  justify-self: flex-start;
 }
 
 .task12 {
   display: grid;
+  place-content: flex-start;
 }
 
 .task13 {
   display: grid;
+  place-content: flex-end;
 }
 
 .task14 {
   display: grid;
+  place-content: center;
 }
 
 .task15 {
@@ -64,30 +84,38 @@
 
 .task16 {
   display: grid;
+  align-content: space-between;
 }
 
 .task17 {
   display: grid;
+  align-content: space-around;
 }
 
 .task18 {
   display: grid;
+  align-content: space-evenly;
 }
 
 .task19 {
   display: grid;
+  place-content: flex-start;
+  align-content: center;
 }
 
 .task20 {
   display: grid;
+  justify-items: flex-start;
 }
 
 .task21 {
   display: grid;
+  justify-items: flex-end;
 }
 
 .task22 {
   display: grid;
+  justify-items: center;
 }
 
 .task23 {
@@ -96,6 +124,8 @@
 
 .task24 {
   display: grid;
+  
+
 }
 
 .task25 {
@@ -112,6 +142,7 @@
 
 .task28 {
   display: grid;
+  grid-template-rows: 
 }
 
 .task29 {
