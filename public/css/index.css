@@ -10,6 +10,7 @@
 .task3 {
   display: grid;
       grid-template-rows:  2fr;
+      gap: 25px 10px;
       
 }
 
@@ -60,7 +61,7 @@ place-content: space-between;
 
 .task11 {
   display: grid;
-  justify-self: flex-start;
+  justify-self: center;
 }
 
 .task12 {
@@ -80,6 +81,7 @@ place-content: space-between;
 
 .task15 {
   display: grid;
+  align-content: center;
 }
 
 .task16 {
@@ -124,16 +126,18 @@ place-content: space-between;
 
 .task24 {
   display: grid;
-  
+  align-items: flex-start;
 
 }
 
 .task25 {
   display: grid;
+  align-items: flex-end;
 }
 
 .task26 {
   display: grid;
+  align-items: center;
 }
 
 .task27 {
@@ -142,7 +146,7 @@ place-content: space-between;
 
 .task28 {
   display: grid;
-  grid-template-rows: 
+  
 }
 
 .task29 {
